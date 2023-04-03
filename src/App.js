@@ -58,7 +58,7 @@ function App() {
      <Alert alert={alert}/> 
      <div className="container my-3">
      <Switch>
-          <Route exact path="/about">
+          <Route exact path="/iNotebook/about">
             <About />
           </Route>
           <Route exact path="/">
