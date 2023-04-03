@@ -53,7 +53,7 @@ function App() {
   }
   return (
     <>
-    <HashRouter>
+    <HashRouter basename='/iNotebook'>
      <Navbar title="iNotebook" togMode={togMode} mode={darkMode} toggleMode={toggleMode} />
      <Alert alert={alert}/> 
      <div className="container my-3">
