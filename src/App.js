@@ -61,7 +61,7 @@ function App() {
           <Route exact path="/iNotebook/about">
             <About />
           </Route>
-          <Route exact path="/iNotebook">
+          <Route exact path="/">
             <TextForm heading="Text Analyse"  showAlert={showAlert} textAr={textAr} formAr={formAr} mode={darkMode}/>
           </Route>
         </Switch>
