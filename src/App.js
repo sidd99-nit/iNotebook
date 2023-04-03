@@ -7,6 +7,7 @@ import TextForm from './Components/TextForm';
 
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -52,7 +53,7 @@ function App() {
   }
   return (
     <>
-    <Router>
+    <HashRouter>
      <Navbar title="iNotebook" togMode={togMode} mode={darkMode} toggleMode={toggleMode} />
      <Alert alert={alert}/> 
      <div className="container my-3">
@@ -66,7 +67,7 @@ function App() {
         </Switch>
           {/* <About /> */}
      </div>
-     </Router>
+     </HashRouter>
     </>
   );
 }
